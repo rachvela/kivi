@@ -7,3 +7,15 @@ Now only supported commands are:
 	kivi> GET <key>
 	kivi> SET <key> <value>
 	kivi> DEL <key>
+
+
+Compile
+-------
+	server: gcc kivi.c -o kivi
+	client: gcc client.c -o client
+
+
+Run
+---
+	server: ./kivi
+	client: ./client <ip/host> <port>
