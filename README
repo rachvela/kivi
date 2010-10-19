@@ -1,0 +1,9 @@
+Experimental project by me, started when I had no job. Kivi tries to be nice Key/Value store. I'm not trying to create yet another competitive K/V store, I've started this project just for fun and mainly to learn event driven programing paradigm and principals of async I/O (epoll, kqueue, select, ...).
+
+Kivi is inspired by Redis (http://github.com/antirez/redis) and if you look at code you'll find many similarities.
+
+Now only supported commands are:
+
+	kivi> GET <key>
+	kivi> SET <key> <value>
+	kivi> DEL <key>
