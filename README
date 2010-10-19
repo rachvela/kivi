@@ -17,5 +17,8 @@ Compile
 
 Run
 ---
+Now only OS with epoll support can run server. 
 	server: ./kivi
 	client: ./client <ip/host> <port>
+	
+	
